@@ -23,3 +23,13 @@ def lowest_stock_item(items: list[InventoryItem]) -> InventoryItem | None:
         if item["quantity"] < lowest["quantity"]:
             lowest = item
     return lowest
+
+
+def item_value(item: InventoryItem) -> float:
+    """Perfective: stock value of a single item (quantity * price)."""
+    return item["quantity"] * item["price"]
+
+
+def low_stock_items(items: list[InventoryItem], threshold: int = 10) -> list[InventoryItem]:
+    """Perfective: return items whose quantity is below the reorder threshold."""
+    return [item for item in items if item["quantity"] < threshold]
