@@ -1,0 +1,6 @@
+8d22378 | Temidayo Omoyajowo | 2026-11-12 19:36 | Merge branch 'dev': corrective, adaptive, perfective and preventive maintenance
+2000330 | Temidayo Omoyajowo | 2026-11-12 19:36 | refactor(preventive): split app into functions, add docstrings and unit tests
+c424d74 | Temidayo Omoyajowo | 2026-11-12 19:34 | feat(perfective): formatted stock report with per-item value and low-stock alerts
+0b3ace3 | Temidayo Omoyajowo | 2026-11-12 19:33 | feat(adaptive): target Python 3.12 (type alias, type hints) and add CSV export
+881ab8b | Temidayo Omoyajowo | 2026-11-12 19:31 | fix(corrective): compute stock value as quantity*price and fix lowest_stock_item
+2ecab0a | Temidayo Omoyajowo | 2026-11-12 19:28 | feat: initial inventory app (inventory.py, app.py, helpers, README)
