@@ -11,11 +11,15 @@ Author: Temidayo Omoyajowo (2025/B/SENG/0513)
 |------|---------|
 | `inventory.py` | List of items, each with `item_name`, `quantity` and `price`. |
 | `app.py` | Reads the inventory and calculates the total stock value. |
-| `utils/helpers.py` | `highest_stock_item()` and `lowest_stock_item()`. |
+| `utils/helpers.py` | Pure helpers: `item_value`, `total_stock_value`, `highest_stock_item`, `lowest_stock_item`, `low_stock_items`. |
+| `tests/` | `unittest` suite for the helpers. |
 | `requirements.txt` | Python dependencies. |
 
 ## Usage
 
+Requires **Python 3.12+**.
+
 ```bash
-python3 app.py
+python3.12 app.py              # print the stock report and export inventory.csv
+python3.12 -m unittest -v      # run the tests
 ```
