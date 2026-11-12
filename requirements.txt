@@ -1,1 +1,2 @@
+# Requires Python 3.12+
 # The inventory app uses only the Python standard library.
